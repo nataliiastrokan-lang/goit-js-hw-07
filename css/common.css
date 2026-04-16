@@ -28,3 +28,23 @@ body {
   width: 100%;
   display: block;
 }
+
+.gallery {
+  align-items: flex-start;
+}
+
+.gallery-image {
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.03);
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+  align-items: flex-start;
+}
